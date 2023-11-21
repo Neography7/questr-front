@@ -1,0 +1,131 @@
+{
+  "login": "Sign In",
+  "register": "Sign Up",
+  "logout": "Sign Out",
+  "profile": "Profile",
+  "settings": "Settings",
+  "general": {
+    "send": "Send",
+    "username": "Username",
+    "nickname": "Nickname",
+    "email": "Email",
+    "password": "Password",
+    "warning": "Warning",
+    "success": "Success",
+    "is_changed": "$t({{attribute}}) is changed",
+    "is_updated": "$t({{attribute}}) is updated",
+    "is_sent": "$t({{attribute}}) is sent",
+    "anonymous": "Anonymous",
+    "view_all": "View all",
+    "questions": "Questions",
+    "share_on": "Share on {{ site }}",
+    "share": "Share",
+    "home": "Home",
+    "there_are_no_new_question": "There are no new questions",
+    "contact": "Contact"
+  },
+  "validation": {
+    "cannot_be_blank": "$t({{attribute}}) cannot be blank",
+    "cannot_be_same": "$t({{attribute}}) and $t({{and}}) cannot be same",
+    "must_be_same": "$t({{attribute}}) and $t({{and}}) must be same"
+  },
+  "login_page": {
+    "sign_in_your_account": "Sign in to your account",
+    "username_or_email": "Username/Email",
+    "password": "Password",
+    "dont_have_an_account_yet": "Don’t have an account yet?",
+    "remember_me": "Remember Me",
+    "welcome_to_questr": "Welcome to Questr!",
+    "welcome_content": "Questr helps you get closer and have a delightful time with your friends. Create and share your profile, and share what you're curious about or your hidden secrets! Engage in fun interactions with your friends."
+  },
+  "register_page": {
+    "create_an_account": "Create an account",
+    "please_accept_terms_and_conditions": "Please accept terms and conditions",
+    "i_accept_the_terms_and_conditions": "I accept the terms and conditions",
+    "already_have_an_account": "Already have an account?",
+    "login_here": "Login here"
+  },
+  "settings_page": {
+    "user_settings": "User Settings",
+    "sub_title": "You can make your profile and membership settings here.",
+    "your_biography": "Your Biography",
+    "old_password": "Current Password",
+    "new_password": "New Password",
+    "new_password_confirmation": "New Password Confirmation",
+    "change_password": "Change Password",
+    "update_profile_information": "Update Profile Information",
+    "update_avatar": "Update Avatar",
+    "please_upload_an_avatar": "Please upload an avatar",
+    "your_information": "Your information",
+    "your_avatar": "Your avatar",
+    "your_password": "Your password",
+    "click_to_upload_avatar": "Click to upload avatar",
+    "click_to_upload": "Click to upload",
+    "or_drag_and_drop": "or drag and drop"
+  },
+  "profile_page": {
+    "here_its_as_quiet_as_space": "Here It's As Quiet As Space",
+    "there_is_no_answer": "It looks like {{ nickname }} hasn't answered any questions yet. Leave him a question/message so he doesn't feel lonely."
+  },
+  "create_question": {
+    "leave_a_question_or_message": "Leave a Question or Message",
+    "please_write_a_question_or_message": "Please write a question or message. Your question must be longer than or equal to 3 characters.",
+    "your_question": "Your question",
+    "your_thoughts": "Your thoughts...",
+    "anonymous": "Anonymous"
+  },
+  "home": {
+    "you_have_unanswered_questions": "You have <1>{{ count }}</1> questions for waiting answer!",
+    "you_have_unanswered_questions_formatted": "You have {{ count }} questions for waiting answer!",
+    "there_is_not_a_soul_around": "There's not a Soul Around",
+    "it_seems_there_is_currently_no_question_asked_to_you": "It seems there is currently no question asked to you. Share your profile to let your friends know!",
+    "answer_to_satisfy_curiosities": "Answer to satisfy curiosities!",
+    "home": "Home"
+  },
+  "question": {
+    "give_answer": "Give Answer",
+    "your_answer": "Your Answer",
+    "write_a_answer": "Write a answer...",
+    "reply": "Reply",
+    "remove_question": "Remove Question",
+    "remove_answer": "Remove Answer",
+    "please_write_an_answer": "Please write an answer. Your answer must be longer than or equal to 3 characters."
+  },
+  "share": {
+    "ask_something_about_me": "Ask something about me!"
+  },
+  "privacy_policy": {
+    "heading": "Privacy Policy",
+    "content": "This privacy policy is created to protect the privacy of users of Questr. This policy informs you about how we use our site, what information we collect, how we use this information, and with whom we share it.",
+    "collected_information_heading": "Collected Information",
+    "collected_information_content": "We do not collect personal information to identify our users. However, we may collect technical information such as usage statistics, browser information, IP addresses to better understand and improve our service.",
+    "cookies_heading": "Cookies",
+    "cookies_content": "Our website may use cookies to enhance visitor experience and gather statistical information. You can change your browser settings to accept or reject cookies.",
+    "third_party_links_heading": "Third-Party Links",
+    "third_party_links_content": "Our site may contain links to third-party websites. When using these links, it is important to check their privacy policies. We do not have control over the content or privacy practices of third-party sites.",
+    "security_heading": "Security",
+    "security_content": "We take industry-standard security measures to protect your personal information. However, we cannot guarantee the security of communication over the internet.",
+    "changes_heading": "Changes",
+    "changes_content": "This privacy policy may be updated from time to time. It is your responsibility to review the current policy to track changes.",
+    "contact_heading": "Contact",
+    "contact_content": "If you have any questions about our privacy policy, please feel free to contact us.",
+    "last_update": "Son Güncelleme Tarihi: {{ date }}"
+  },
+  "about": {
+    "about_description": "Questr is a fun social platform aimed at users for personal question-and-answer sharing with friends. It's crafted with love by Ilker Akyel using Nest.js and React. It's purely for entertainment purposes.",
+    "heading": "About",
+    "technologies_used": "Technologies Used",
+    "technologies_used_content": "The technologies used in the development of Questr are as follows:",
+    "socket_content": "For real-time notification management, Socket.io has been utilized. Instant notifications assist in facilitating interactions.",
+    "mongo_content": "The aim was flexibility and scalability in database operations. Hence, Mongo was chosen as the database for Questr.",
+    "graphql_content": "GraphQL was used in communication with the API Gateway. It enables flexible and efficient presentation of data requested by the client.",
+    "kubernetes_content": "Questr was developed using a microservices architecture. While employing microservices, GRPC was utilized for communication between the API gateway and services. Docker-Kubernetes was preferred for managing the services, API Gateway, and Front-End.",
+    "react_content": "React was chosen for Questr's interface. By using React, the aim was to achieve a dynamic and interactive web experience as a single-page application, eliminating the need for page refresh. Tailwind and Flowbite was used to support the design process, while i18next facilitated the creation of a multilingual structure.",
+    "nest_content": "Node.js framework, Nest.js, was employed in the backend development of Questr. Its selection was based on its support for microservices architecture, its built-in packages for technologies like GraphQL and gRPC, and its well-provided documentation."
+  },
+  "page_404": {
+    "title": "Something's missing.",
+    "message": "Sorry, we can't find that page. You'll find lots to explore on the home page.",
+    "button": "Back to Homepage"
+  }
+}
